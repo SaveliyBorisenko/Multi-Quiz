@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A quiz containing multiple questions" />
+    <title>Multi Quiz</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Multi Quiz</h1>
+    </header>
+    <main>
+      <form method="post">
+        <section role="region"  class="third-section">
+          <h2 id="info">Info</h2>
+          <div class="info">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="info">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+        </section>
+        <section role="region"  class="second-section">
+          <h2>HTML</h2>
+          <div class="question-block">
+            <p>1</p>
+            <fieldset class="question">
+              <legend>
+                A spider has 8 legs
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q1-a1">
+                    <input type="radio" id="q1-a1" name="q1" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a2">
+                    <input type="radio" id="q1-a2" name="q1" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="question-block">
+            <p>2</p>
+            <fieldset class="question">
+              <legend>
+                The red sea is located in europe
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q2-a1">
+                    <input type="radio" id="q2-a1" name="q2" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q2-a2">
+                    <input type="radio" id="q2-a2" name="q2" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+        </section>
+        <section role="region" class="third-section">
+          <h2>CSS</h2>
+          <div class="question-block">
+            <p>1</p>
+            <fieldset class="question">
+              <legend>
+                Brazil is the largets country in south america
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q3-a1">
+                    <input type="radio" id="q3-a1" name="q3" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q3-a2">
+                    <input type="radio" id="q3-a2" name="q3" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="question-block">
+            <p>2</p>
+            <fieldset class="question">
+              <legend>
+                A dog is a mammal
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q4-a1">
+                    <input type="radio" id="q4-a1" name="q4" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q4-a2">
+                    <input type="radio" id="q4-a2" name="q4" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <button type="submit">Submit</button>
+        </section>
+      
+      </form>
+    </main>
+  </body>
+</html>
